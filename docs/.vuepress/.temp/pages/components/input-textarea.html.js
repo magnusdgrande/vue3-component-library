@@ -7,14 +7,27 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1653850870000,
+    "updatedTime": 1653853195000,
     "contributors": [
       {
         "name": "Magnus Grande",
         "email": "magnus.grande@gmail.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
   "filePathRelative": "components/input-textarea.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

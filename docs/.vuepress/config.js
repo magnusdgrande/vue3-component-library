@@ -1,4 +1,7 @@
 const { defaultTheme } = require('vuepress')
+const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
+const { path } = require('@vuepress/utils')
+
 module.exports = {
   lang: 'en-US',
   title: 'Hello, VuePress!',
@@ -28,4 +31,9 @@ module.exports = {
       }
     ],
   }),
+  plugins: [
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, '../../src'),
+    })
+  ]
 }

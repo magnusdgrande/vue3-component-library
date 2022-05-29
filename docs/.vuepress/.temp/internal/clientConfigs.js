@@ -5,6 +5,7 @@ import clientConfig3 from '/Users/magnusgrande/Documents/Tull/vue3-component-lib
 import clientConfig4 from '/Users/magnusgrande/Documents/Tull/vue3-component-library/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import clientConfig5 from '/Users/magnusgrande/Documents/Tull/vue3-component-library/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import clientConfig6 from '/Users/magnusgrande/Documents/Tull/vue3-component-library/node_modules/@vuepress/theme-default/lib/client/config.js'
+import clientConfig7 from '/Users/magnusgrande/Documents/Tull/vue3-component-library/docs/.vuepress/.temp/register-components/clientConfig.d93ba2e0.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -14,4 +15,5 @@ export const clientConfigs = [
   clientConfig4,
   clientConfig5,
   clientConfig6,
+  clientConfig7,
 ]
